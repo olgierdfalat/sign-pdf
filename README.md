@@ -10,9 +10,17 @@ npm install
 
 ### How to run
 
+Sign dynamic PDF with passphrase:
+
+```
+node index.js --passphrase=password
+```
+
+Sign static pdf without passphrase
 ```
 node index.js
 ```
+
 
 That should create signed PDF in *./output* directory
 
